@@ -10,4 +10,9 @@ The workspace contains two folders by default, where:
 - `lib`: the folder to maintain dependencies
 
 ## Referenced Libraries
+
 mysql-connector-java-8.0.21.jar
+
+## Credit 
+
+[Pildoras Informaticas](https://www.pildorasinformaticas.es)

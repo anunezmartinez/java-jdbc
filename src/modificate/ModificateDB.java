@@ -10,7 +10,7 @@ public class ModificateDB {
             //Declare statement
             Statement myStatement = conn.createStatement();
             //Insert
-            String sqlInstruction = "INSERT INTO sql_inventory.products (product_id, name, quantity_in_stock, unit_price) VALUE ('11', 'Bleach','124','1.5')";
+            String sqlInstruction = "INSERT INTO sql_inventory.products (product_id, name, quantity_in_stock, unit_price) VALUE ('13', 'Bleach','125','1.5')";
 
             myStatement.executeUpdate(sqlInstruction);
 

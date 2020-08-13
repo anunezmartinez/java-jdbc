@@ -11,7 +11,6 @@ import java.sql.*;
 public class DatabaseUI {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
 		JFrame myFrame = new myFrameUI();
 		
@@ -106,7 +105,6 @@ class myFrameUI extends JFrame{
 
 
         } catch (Exception e) {
-            //TODO: handle exception
             System.out.println("Database not connected");
             e.printStackTrace();
         }
@@ -154,7 +152,6 @@ class myFrameUI extends JFrame{
             }
 
         } catch (Exception e) {
-            //TODO: handle exception
             e.printStackTrace();
         }
 
